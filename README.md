@@ -37,3 +37,24 @@ en `<token>` pon la token de tu bot
 ### instalar el paquete
 para instalarlo:
 `npm i discord.js`
+
+---
+
+## Embed
+Quieres hacer un mensaje `embed`?
+
+Código de guía:
+
+```js
+const exampleEmbed = new Discord.MessageEmbed()
+	.setColor('#0099ff') //<-- color (embed)
+	.setTitle('Some title') //<-- título del embed
+	.setAuthor('Some name', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org') //<-- author, author icon y author link (opcional)
+	.setDescription('Some description here') //<-- descripción
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png') //<-- imagen del thumbnail
+
+	.setImage('https://i.imgur.com/wSTFkRM.png') //<-- imagen del embed
+	.setFooter('Texto del footer', 'https://i.imgur.com/wSTFkRM.png'); //<-- icono del footer
+
+channel.send(exampleEmbed);
+```
