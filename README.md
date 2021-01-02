@@ -1,5 +1,5 @@
 # ovehojs
-el repositorio oficial de Oveho.js 🎉
+<p align:center;>el repositorio oficial de Oveho.js 🎉</p>
 
 **Discord.js** :pager:
 
